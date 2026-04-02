@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased overflow-hidden selection:bg-rose-200 selection:text-rose-900;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/20 backdrop-blur-md border border-white/40 shadow-xl;
+}
